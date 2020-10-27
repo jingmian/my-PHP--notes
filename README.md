@@ -1,19 +1,9 @@
-
 **目录 (Table of Contents)**
 
-[TOCM]
-
-[TOC]
-
-# 多进程 
-## 进程控制扩展 
-### PCNTL 
-####  [pcntl_wait ](https://github.com/pcntl/pcntl_wait.md)
-####  [pcntl_waitpid](https://github.com/pcntl/pcntl_waitpid.md)
-# Heading 1 link 
-## Heading 2 link [ hellow](https://www.baidu.com)
-### Heading 3 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-#### Heading 4 link [Heading link](https://github.com/pandao/editor.md "Heading link") Heading link [Heading link](https://github.com/pandao/editor.md "Heading link")
-##### Heading 5 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-###### Heading 6 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-
+- [1.目录结构](#1目录结构)
+- [2.多进程](#2多进程)
+  - [2.1进程控制扩展](#21进程控制扩展)
+   - [2.1.1 PCNTL](https://github.com/jingmian/my-PHP--notes/blob/master/pcntl/ "#211 PCNTL")
+       - [2.1.1.1 pcntl_wait](https://github.com/jingmian/my-PHP--notes/blob/master/pcntl/pcntl_wait.md "#2111 pcntl_wait")
+       - [2.1.1.2 pcntl_waitpid](https://github.com/jingmian/my-PHP--notes/blob/master/pcntl/pcntl_waitpid.md "#2112 pcntl_waitpid")
+ 
