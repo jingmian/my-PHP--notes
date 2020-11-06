@@ -11,4 +11,6 @@
   - [3.1 socket_accept](#31socket_accept)
   
 - [4.MYSQL](#3MYSQL)
-  - [4.1 主从一致](https://github.com/jingmian/my-PHP--notes/blob/master/mysql/innodb_flush_log_at_trx_commit.md "#31主从一致")  
+  - [4.1 主从一致](https://github.com/jingmian/my-PHP--notes/blob/master/mysql/innodb_flush_log_at_trx_commit.md "#31主从一致")
+- [5.Worker](#3MYSQL)
+  - [5.1 connection对象](https://github.com/jingmian/my-PHP--notes/blob/master/Workerman/connections.md "#51connection对象")      
