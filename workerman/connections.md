@@ -31,12 +31,12 @@ $worker->onWorkerStart = function($worker)
 // 运行worker
 Worker::runAll();
 ```
-###A终端
+### A终端
 ```sh
 root@aeb79d20f345:/var/www/html/site1/workman# php test.php start 
 ```
 
-###B终端
+### B终端
 - 同时开启3个命令窗口,执行以下命令
 
 ```sh
