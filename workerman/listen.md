@@ -1,7 +1,7 @@
 ### Worker
 
 - [listen](http://doc.workerman.net/worker/listen.html)
---用于实例化Worker后执行监听。此方法主要用于在Worker进程启动后动态创建新的Worker实例，能够实现同一个进程监听多个端口，支持多种协议。需要注意的是用这种方法只是在当前进程增加监听，并不会动态创建新的进程，也不会触发onWorkerStart方法.既是同一个端口监听多种协议.
+-- 用于实例化Worker后执行监听。此方法主要用于在Worker进程启动后动态创建新的Worker实例，能够实现同一个进程监听多个端口，支持多种协议。需要注意的是用这种方法只是在当前进程增加监听，并不会动态创建新的进程，也不会触发onWorkerStart方法.既是同一个端口监听多种协议.
 
 新建一个`test.php`,`php`版本必须大于`7.0`
 ```php
@@ -127,5 +127,5 @@ Server: workerman/4.0.15
 <div style="text-align:center"><h1>Websocket</h1><hr>powered by <a href="https://www.workerman.net">workerman 4.0.15</a></div>Connection closed by foreign host.
 
 ```
-###为何出现`Connection closed by foreign host.`
+### 为何出现`Connection closed by foreign host.`
 > 解释： `telnet`是用`tcp`连接的,而你的目的是连接`'text://0.0.0.0:9501`这个协议的,但是系统调用线程工作的时候被分配到`websocket://0.0.0.0:9501`这个协议上了,`websocket`协议需要客户端携带一个`Sec-WebSocket-Key`秘钥才行的,所以服务端匹配秘钥不正确,就拒绝连接,要是你尝试`telnet`几次,说不定系统调用分配到`text`协议上,从而让你有误觉一时可以一时不可以
